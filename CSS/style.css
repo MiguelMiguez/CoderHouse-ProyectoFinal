@@ -50,7 +50,7 @@ table {
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
 
 body{
-    background-color: #150a25;
+    background-color: #1e172b;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     color: white;
@@ -623,9 +623,10 @@ button[type="submit"]:hover {
 @media (min-width: 768px) and (max-width: 1023px) {
     
     body{
-        background-color: #301953;
+        background-color: #1e172b;
         font-family: 'Montserrat', sans-serif;
         font-weight: 300;
+        color: white;
         
     }
     
@@ -696,7 +697,7 @@ button[type="submit"]:hover {
 @media (min-width: 1024px) and (max-width: 1199px) {
 
     body{
-        background-color: #150a25;
+        background-color: #1e172b;
         font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         
