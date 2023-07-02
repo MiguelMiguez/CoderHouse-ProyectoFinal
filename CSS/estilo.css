@@ -89,15 +89,17 @@ nav a{
 /* Footer */
 
 footer{
-    background-color: #2c284d79;
+    background-color: #16132e;
     padding-top: 5%;
     text-align: center;
     padding-bottom: 0%;
     margin-bottom: 0%;
+    color: white;
 
 }
 
 .footer-nav ul li a{
+
 
     list-style: none;
     text-decoration: none;
@@ -112,12 +114,12 @@ footer{
 .footer-nav ul{
     text-align: center;
     margin: 2% 2%;
-    
+    color: white;
     list-style: none;
 }
 
  .footer-nav ul li{
-    
+    color: white;
     display: inline;
     text-decoration: none;
     list-style: none;
@@ -195,7 +197,7 @@ height: auto;
 /* Juegos */
 
 #catalogo{
-    background-color: #150a25;
+    background-color: #1b102c;
     display: grid;
     grid-template-columns: 1fr;
     padding: 5rem 0 20rem 0;
@@ -621,7 +623,7 @@ button[type="submit"]:hover {
 @media (min-width: 768px) and (max-width: 1023px) {
     
     body{
-        background-color: #150a25;
+        background-color: #301953;
         font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         
@@ -1134,7 +1136,7 @@ button[type="submit"]:hover {
 
 
     #catalogo{
-        background-color: #150a25;
+        background-color: #1b102c;
         padding-top: 5%;
         padding-bottom: 5%;
         display: grid;
@@ -1150,10 +1152,10 @@ button[type="submit"]:hover {
 @media (min-width: 1200px){
 
     body{
-        background-color: #150a25;
+        background-color: #1e172b;
         font-family: 'Montserrat', sans-serif;
         font-weight: 300;
-        
+        color: white;
     }
     
     .container{
@@ -1215,7 +1217,7 @@ button[type="submit"]:hover {
     }
 
     #catalogo{
-        background-color: #150a25;
+        background-color: #1b102c;
         padding-top: 5%;
         padding-bottom: 5%;
         display: grid;
