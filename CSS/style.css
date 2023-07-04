@@ -95,6 +95,8 @@ footer{
     padding-bottom: 0%;
     margin-bottom: 0%;
     color: white;
+    font-family: 'Montserrat', sans-serif;
+
 
 }
 
@@ -200,16 +202,16 @@ height: auto;
     background-color: #1b102c;
     display: grid;
     grid-template-columns: 1fr;
-    padding: 5rem 0 20rem 0;
+    padding: 5rem 0 40rem 0;
     justify-items: center;
     gap: 1%;
     color: white;
 }
 
 .tittle-game-catalogo{
-    text-align: center;
-    font-family: 'Monomaniac One', sans-serif;
-    font-size: large;
+    text-align: start;
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
 }
 
 .games{
@@ -687,6 +689,7 @@ button[type="submit"]:hover {
         grid-gap: 10px;
         justify-items: center;
         padding-top: 10%;
+        padding-bottom: 10%;
     }
 
     
@@ -1142,7 +1145,7 @@ button[type="submit"]:hover {
     #catalogo{
         background-color: #1b102c;
         padding-top: 5%;
-        padding-bottom: 5%;
+        padding-bottom: 10%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 3%;
@@ -1223,7 +1226,7 @@ button[type="submit"]:hover {
     #catalogo{
         background-color: #1b102c;
         padding-top: 5%;
-        padding-bottom: 5%;
+        padding-bottom: 10%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 3%;
@@ -1251,6 +1254,8 @@ button[type="submit"]:hover {
     }
     
     .container-img{
+        width: auto;
+        height: auto;
         margin: 1% 2%;
     }
     
