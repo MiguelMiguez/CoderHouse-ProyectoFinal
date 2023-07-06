@@ -448,74 +448,6 @@ margin-top: 2%;
 }
 
 
-/* Emuladores PS2*/
-
-.tittle-emulador-PS{
-    text-align: center;
-    font-size: 3rem;
-    margin-bottom: 2rem;
-    font-family: 'Monomaniac One', sans-serif;
-
-
-}
-
-.consola-emulador{
-    display: grid;
-    justify-items: center;
-    align-items: center;
-}
-
-.playstation{
-    width: 200px;
-}
-
-.catalogo-emuladores{
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    
-}
-
-.tittle-juegos2{
-    font-size: 1.6rem;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    padding-bottom: 2rem;
-}
-
-.div-juegos{
-    margin-bottom: 5rem;
-    display: grid;
-    justify-items: center;
-    align-items: center;
-    grid-template-columns: 1fr;
-}
-
-.juegosps2{
-    width: 200px;
-}
-
-.allemuladores2{
-    display: grid;
-    grid-template-columns: 1fr;
-    text-align: center;
-    padding-bottom: 15rem;
-    gap: 10%;
-    margin: 0rem 1.5rem 0rem 1.5rem;
-}
-
-.allemuladores2 ul li{
-    text-align: justify;
-    padding-bottom: 1rem;
-    
-}
-
-.tittle-juegos{ 
-    visibility: hidden;
-}
-
-
 /* About US */
 
 .aboutus-txt{
@@ -1677,5 +1609,6 @@ button[type="submit"]:hover {
     button[type="submit"]:hover {
       background-color: #555;
     }
+
 
 }
