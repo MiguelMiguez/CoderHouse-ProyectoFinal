@@ -684,6 +684,8 @@ button[type="submit"]:hover {
         height: auto;
     }
 
+    /* juegos */
+
     #catalogo {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -818,10 +820,7 @@ button[type="submit"]:hover {
     .description{ 
         font-size: x-large;
         font-family:'Monomaniac One', sans-serif;
-        font-weight: 100;
-        
-        
-        
+        font-weight: 100;   
     }
     
     .extracontent{
@@ -894,11 +893,6 @@ button[type="submit"]:hover {
         align-content: center;
     }
     
-    .imgsoftware {
-    
-        width: 100px;
-    
-    }
     
     .allsoftware{ 
         background-color:rgba(45, 18, 53, 0.425);
@@ -1029,7 +1023,7 @@ button[type="submit"]:hover {
     .containeremu{
         width: 250px;
     }
-
+    
     .aboutus-txt{
         background-image: url(../Image/portemu.jpg);
         margin-top: -3%;
