@@ -51,7 +51,7 @@ table {
 }
 
 body {
-  background-color: #1e172b !important;
+  background-color: #1e172b;
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
   color: white;
@@ -154,11 +154,13 @@ footer {
 }
 
 .div-pnov .tittlegame {
+  font-family: "Monomaniac One", sans-serif;
   text-align: center;
   font-size: 2rem;
   margin: 5%;
 }
 .div-pnov .tittlegame2 {
+  font-family: "Monomaniac One", sans-serif;
   text-align: center;
   font-size: 2rem;
   margin: 5%;
@@ -228,7 +230,7 @@ footer {
 }
 #contentgame .extracontent .description {
   font-family: "Monomaniac One", sans-serif;
-  font-size: large;
+  font-size: x-large;
   padding-bottom: 1rem;
 }
 
@@ -436,6 +438,7 @@ iframe {
 .contact-final .form-contact .contact-form .contact-tittle {
   text-align: center;
   font-size: 2rem;
+  font-family: "Monomaniac One", sans-serif;
 }
 .contact-final .form-contact .contact-form .form-group {
   margin-bottom: 20px;
@@ -935,6 +938,7 @@ iframe {
     margin: 0 auto;
   }
   .contact-final .form-contact .contact-form .contact-tittle {
+    font-family: "Monomaniac One", sans-serif;
     text-align: center;
   }
   .contact-final .form-contact .contact-form .form-group {
@@ -1303,6 +1307,7 @@ iframe {
     margin: 0 auto;
   }
   .contact-final .form-contact .contact-form .contact-tittle {
+    font-family: "Monomaniac One", sans-serif;
     text-align: center;
   }
   .contact-final .form-contact .contact-form .form-group {
