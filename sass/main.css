@@ -50,6 +50,8 @@ table {
   border-spacing: 0;
 }
 
+/* Variables */
+/* ---- */
 body {
   background-color: #1e172b;
   font-family: "Montserrat", sans-serif;
@@ -89,12 +91,16 @@ footer {
   color: white;
   font-family: "Montserrat", sans-serif;
 }
+footer .contact-info p {
+  margin-bottom: 1rem;
+}
 
 .footer-nav ul {
   text-align: center;
   margin: 2% 2%;
   color: white;
   list-style: none;
+  padding: 0%;
 }
 .footer-nav li {
   color: white;
