@@ -224,12 +224,10 @@ footer .contact-info p {
 }
 #contentgame .container-req {
   text-align: left;
-  padding: 5%;
 }
 #contentgame .tecnicfix {
   font-family: "Monomaniac One", sans-serif;
   font-weight: 500;
-  padding: 1rem 0 1rem 0;
 }
 #contentgame .extracontent {
   text-align: center;
@@ -719,7 +717,6 @@ iframe {
     font-size: x-large;
     font-family: "Monomaniac One", sans-serif;
     font-weight: 100;
-    margin: 3% 2%;
   }
   #contentgame .container-req .li-req {
     margin: 1% 2%;
