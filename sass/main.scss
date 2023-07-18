@@ -58,7 +58,7 @@ $fontpage: 'Montserrat', sans-serif;
 body{
     background-color: $colorbody;
     font-family: $fontpage;
-    font-weight: 300;
+    font-weight: 100;
     color: white;
 }
 
@@ -160,22 +160,39 @@ footer{
 /* Index */
 
 .containerport{
+    padding-top: 0%;
     width: 100%;    
-    height: auto;
-
-    .imgportada{
-        width: 100%;
-        height: auto;
+    height: 500PX;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(95deg, rgba(34, 12, 60, 0.726) 0%, rgba(91, 12, 40, 0.521) 100%), url(../image/Portadacorrecta.png);
+    .titlenov{
+        text-align: center;
+        font-size: 3rem;
+        font-family: $fontpage;
     }
-
+    .button-portada {
+        background-color: transparent;
+        border: 1px solid white;
+        color: white;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        font-size: 14px;
+        letter-spacing: 2px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin: 1.5rem;
+    }
+    .button-portada:hover {
+        background-color: #000;
+        color: #fff;
+    }
+    
 }
 
-.tittle-nov{
-    text-align: center;
-    font-size: 3rem;
-    margin: 2%;
-    font-family: $titulos;
-}
+
 
 .div-imgnov{
     display: grid;
@@ -183,30 +200,36 @@ footer{
 
     .imgnovedades{
         width: 100%;
-        border: solid rgba(255, 255, 255, 0.5) 2pt;
+        border: solid rgba(255, 255, 255, 0.712) 2pt;
+        transition: 1s;    
+    }
+    .imgnovedades:hover{
+        transform: scale(1.05);
     }
 }
 
 .div-pnov{
 
     .tittlegame{
-        font-family: $titulos;
+        font-family: $fontpage;
         text-align: center;
-        font-size: 2rem;
+        font-size: 2.2rem;
         margin: 5%;
+        font-weight: 600;
     }
 
     .tittlegame2{
-        font-family: $titulos;
+        font-family: $fontpage;
         text-align: center;
-        font-size: 2rem;
+        font-size: 2.2rem;
         margin: 5%;
+        font-weight: 600;
     }
 
     .txt{
         margin: 5%;
         text-align: center;
-        font-size: 1.4rem;
+        font-size: 1.7rem;
         padding-bottom: 5%;
     }
 
@@ -214,22 +237,33 @@ footer{
 
 /* Juegos */
 
+.wabecatalogo{
+    background-color: #1b102c;
+}
+
 #catalogo{
     background-color: #1b102c;
     display: grid;
     grid-template-columns: 1fr;
-    padding: 5rem 0 40rem 0;
+    padding: 0rem 0 40rem 0;
     justify-items: center;
     gap: 1%;
     color: white;
     .games-p1{
         .games{
 
-            border: solid rgba(255, 255, 255, 0.5);
+            border: solid rgba(59, 8, 70, 0.527);
             width: 250px;
-            height: 400px ;
+            height: 400px;
+            transition: 1s;
             
         }
+
+        .games:hover{
+            transform: scale(1.05);
+            
+        }
+
         .tittle-game-catalogo{
             text-align: start;
             font-family: 'Montserrat', sans-serif;
@@ -338,10 +372,19 @@ iframe{
 
 }
 
+.wabe2{
+    background-color:rgba(45, 18, 53, 0.425) ;
+}
+.wabe3{
+    background-color:rgba(45, 18, 53, 0.425) ;
+}
+
+.wabe4{
+    background-color:#2c284d79;
+}
+
 .allsoftware{ 
     background-color:rgba(45, 18, 53, 0.425);
-    padding-top: 10%;
-    padding-bottom: 10%;
     display: grid;
     grid-template-areas: 
     "img-streamer container-img-soft  " 
@@ -370,6 +413,11 @@ iframe{
 
             .soft{
                 width: 100px;
+                transition: 1s;
+            }
+
+            .soft:hover{
+                transform: scale(1.5);
             }
             
         }
@@ -384,8 +432,6 @@ iframe{
 }
 
 .allsoftware2{ 
-    padding-top: 10%;
-    padding-bottom: 10%;
     background-color:#2c284d79;
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -403,7 +449,11 @@ iframe{
             justify-content: center;
 
             .soft{
-                width: 100px;
+                transition: 1s;
+            }
+
+            .soft:hover{
+                transform: scale(1.5);
             }
             
         }
@@ -480,7 +530,12 @@ iframe{
                 width: 100px;
                 height: auto;
                 margin: 2% 2%;
+                transition: 1s;
                 
+            }
+
+            .imgemuladores:hover{
+                transform: scale(1.2);
             }
 
         }
@@ -500,7 +555,7 @@ iframe{
 .aboutus-1{
 
     .aboutus-txt{
-        background-image: url(../Image/portemu.jpg);
+        background-image:  linear-gradient(95deg, rgba(34, 12, 60, 0.493) 0%, rgba(91, 12, 40, 0.295) 100%), url(../Image/portemu.jpg);
         padding-top: 4%;
         padding-left: 20%;
         padding-right: 20%;
@@ -711,7 +766,6 @@ iframe{
 
     .containerport{
         .imgportada {
-        
             width: 100%;
             height: auto;
         }    
@@ -777,7 +831,6 @@ iframe{
         grid-template-columns: 1fr 1fr;
         grid-gap: 10px;
         justify-items: center;
-        padding-top: 10%;
         padding-bottom: 10%;
     }
 
@@ -871,7 +924,6 @@ iframe{
     
     #catalogo{
         background-color: #1b102c;
-        padding-top: 5%;
         padding-bottom: 10%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -1022,8 +1074,6 @@ iframe{
 
     .allsoftware{ 
         background-color:rgba(45, 18, 53, 0.425);
-        padding-top: 10%;
-        padding-bottom: 10%;
         display: grid;
         grid-template-areas: 
         "img-streamer container-img-soft  " 
@@ -1067,8 +1117,6 @@ iframe{
     }
 
     .allsoftware2{ 
-        padding-top: 10%;
-        padding-bottom: 10%;
         background-color:#2c284d79;
         display: grid;
         grid-template-columns: 2fr 1fr;
@@ -1331,7 +1379,7 @@ iframe{
         .div-pnov{
             .txt{ 
                 padding: 0rem 0rem 0rem 0rem;
-                text-align: justify;   
+                text-align: center;   
             }
         }
     }  
@@ -1364,7 +1412,7 @@ iframe{
         .div-pnov{
             .txt{ 
                 padding: 0rem 0rem 0rem 0rem;
-                text-align: justify;   
+                text-align: center;   
             }
         }
         
@@ -1372,7 +1420,6 @@ iframe{
     
     #catalogo{
         background-color: #1b102c;
-        padding-top: 5%;
         padding-bottom: 10%;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -1386,13 +1433,13 @@ iframe{
         font-size: xx-large;
         text-align: start;
         padding:0% ;
-        margin: 1% 2.5%;
+        margin: 1% 2%;
     }
 
     #contentgame{
         display: grid;
         gap: 2%;
-        margin: 1% 2%;
+        margin: 1% 2.5%;
         grid-template-areas: 
             "imagegame infogame " 
             "container-req extracontent";
@@ -1401,7 +1448,6 @@ iframe{
             margin: 1% 2%;
             
             .imagegame{ 
-        
                 width: 400px;
                 height: auto;
             }
@@ -1525,8 +1571,6 @@ iframe{
 
     .allsoftware{ 
         background-color:rgba(45, 18, 53, 0.425);
-        padding-top: 10%;
-        padding-bottom: 10%;
         display: grid;
         grid-template-areas: 
         "img-streamer container-img-soft  " 
@@ -1570,8 +1614,6 @@ iframe{
     }
 
     .allsoftware2{ 
-        padding-top: 10%;
-        padding-bottom: 10%;
         background-color:#2c284d79;
         display: grid;
         grid-template-columns: 2fr 1fr;
