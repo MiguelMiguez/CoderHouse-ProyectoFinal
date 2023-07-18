@@ -1,0 +1,1608 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&family=Montserrat:wght@100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
+
+body{
+    background-color: #1e172b !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: white;
+}
+
+
+/* NavBar */
+
+
+#header{
+    background-color: black;
+    font-size: medium;
+    font-family: 'Monomaniac One', sans-serif;
+    color: white;
+}
+
+
+.imglogo{
+    width: 200px;
+}
+
+.navbar-nav .nav-link{
+    color: white;
+}
+
+nav a{
+    color: white; 
+}
+
+.navbar-nav .nav-link:hover{
+    color: #8b7ce9d0;
+    transition: background-color 0.3s ease;
+   
+}
+
+/* Footer */
+
+footer{
+    background-color: #16132e;
+    padding-top: 5%;
+    text-align: center;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.footer-nav ul li a{
+
+
+    list-style: none;
+    text-decoration: none;
+    margin: 0.4%;
+    color: aliceblue;
+    font-family:'Monomaniac One', sans-serif; 
+    font-weight: 100;
+
+
+ }
+
+.footer-nav ul{
+    text-align: center;
+    margin: 2% 2%;
+    color: white;
+    list-style: none;
+}
+
+ .footer-nav ul li{
+    color: white;
+    display: inline;
+    text-decoration: none;
+    list-style: none;
+
+ }
+
+.copyright{
+    padding-bottom: 2%;
+    margin-bottom: 0%;
+
+}
+
+.social-media{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin: 2% 2%;
+}
+
+.social{
+    width: 30px;
+}
+
+
+
+/* Portada Index*/
+
+.containerport{
+width: 100%;    
+height: auto;
+}
+
+.imgportada{
+    width: 100%;
+    height: auto;
+}
+
+.tittle-nov{
+    text-align: center;
+    font-size: 3rem;
+    margin: 2%;
+    font-family: 'Monomaniac One', sans-serif;
+}
+
+.div-imgnov{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.imgnovedades{
+    width: 100%;
+    border: solid rgba(255, 255, 255, 0.5) 2pt;
+}
+
+.tittlegame{
+    text-align: center;
+    font-size: 2rem;
+    margin: 5%;
+}
+
+
+.tittlegame2{
+    text-align: center;
+    font-size: 2rem;
+    margin: 5%;
+}
+
+.txt{
+    margin: 5%;
+    text-align: center;
+    font-size: 1.4rem;
+    padding-bottom: 5%;
+}
+
+/* Juegos */
+
+#catalogo{
+    background-color: #1b102c;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 5rem 0 40rem 0;
+    justify-items: center;
+    gap: 1%;
+    color: white;
+}
+
+.tittle-game-catalogo{
+    text-align: start;
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+}
+
+.games{
+
+    border: solid rgba(255, 255, 255, 0.5);
+    width: 250px;
+    height: 400px ;
+    
+}
+
+.contentgame{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.gametitle{
+    font-size: 2rem;
+    padding: 5%;
+    text-align: center;
+    font-family: 'Monomaniac One', sans-serif;
+}
+
+.description{
+    font-family: 'Monomaniac One', sans-serif;
+    font-weight: 500;
+    padding: 1rem 0 1rem 0;
+}
+
+.container-img{
+    width: 100%;
+    height: auto;
+}
+
+.imagegame{
+    width: 100%;
+    border: solid rgb(122, 122, 122);
+}
+
+.infogame{
+    text-align: center;
+    margin: 5%;
+}
+
+.tecnicfix{
+    font-family: 'Monomaniac One', sans-serif;
+    font-weight: 500;
+    padding: 1rem 0 1rem 0;
+}
+
+.container-req{
+    text-align: left;
+    padding: 5%
+}
+
+.extracontent{
+    text-align: center;
+    margin: 5%;
+
+}
+
+.trailer{ 
+    text-align: center;
+    font-family: 'Monomaniac One', sans-serif;
+    font-size: 2rem;
+
+}
+
+iframe{
+    height: 500px;
+    width: 800px; 
+}
+
+.iframe{
+    display: flex;
+    justify-content: center;
+    margin: 5%;
+}
+
+/* Software */
+
+#port-soft{
+    margin: 2rem;
+    display: grid;
+    grid-template-areas:
+    "port-text-soft img-webcam";
+    grid-template-columns: 1fr 1fr;
+}
+
+.textsoftware{
+    text-align: center;
+    font-size: large;
+    margin: 5%;
+}
+
+.highlight{
+    font-weight: 600;
+}
+
+.webcam{
+    padding-top: 3rem;
+    width: 200px;
+}
+
+.allsoftware{ 
+    background-color:rgba(45, 18, 53, 0.425);
+    padding-top: 10%;
+    padding-bottom: 10%;
+    display: grid;
+    grid-template-areas: 
+    "img-streamer container-img-soft  " 
+    " img-streamer container-soft ";
+    grid-template-columns: 1fr 2fr;
+}
+
+.img-streamer{
+    margin: 2rem;
+}
+
+.streamer{
+    width: 200px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+.soft{
+    width: 100px;
+}
+
+.allsoftware2{ 
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-color:#2c284d79;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: 
+    "container-prueba container-ibai"
+    "container-soft container-ibai";
+}
+
+.streamer2{
+    width: 200px;
+    margin: 2rem;
+}
+
+.container-soft{
+
+    text-align: center;
+
+}
+
+.container-prueba{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 10%;
+}
+
+.container-img-soft{
+    display: flex;
+    justify-content: center;
+}
+
+.container-soft{
+    font-size:medium;
+    text-align: center;
+    margin: 1rem;
+}
+
+/* Emulador */
+
+.portemu{
+    background-color: rgba(0, 0, 0, 0.479);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 2rem
+}
+
+.img-port{
+    display: flex;
+    justify-content: center;
+}
+
+.text-port{ 
+    display: flex;
+    justify-content: center;
+}
+
+.img-port-emu{  
+    width: 10rem;
+}
+
+.introemulador{
+    text-align: center;
+    font-size: medium;
+}
+
+.imgemuladores{
+    width: 100px;
+    height: auto;
+    margin: 2% 2%;
+    
+}
+
+.tittleemuladores{
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem;
+    font-family:'Monomaniac One', sans-serif;
+}
+
+.textemuladores{
+text-align:center;
+margin-top: 2%;
+
+}
+
+.divemulador{
+    display: flex;
+    justify-content: center;
+}
+
+.emuladores{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    
+}
+
+.containeremu{
+    width: 250px;
+}
+
+
+/* About US */
+
+.aboutus-txt{
+    background-image: url(../Image/portemu.jpg);
+    padding-top: 4%;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 4%;
+    font-size: 1rem;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+.aboutus-txt2{
+    text-align: center;
+    padding: 2rem;
+}
+
+.div-streaming{
+    background-color: rgba(0, 0, 0, 0.712);
+    width: 100%;
+    height: auto;
+    padding: 0.5%;
+}
+
+.img-streaming{
+
+    width: 100%;
+    height: auto;
+}
+
+.contact-tittle{
+    font-weight: 500;
+    font-family:'Monomaniac One', sans-serif ;
+    font-size: x-large;
+    padding: 1rem 0 1rem 0;
+}
+
+.contact-final{
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-areas: 
+    "form-txt" "form-contact";
+    margin: 5%;
+}
+
+.form-txt{
+    margin: 1rem;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.contact-form h2 {
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #555;
+}
+
+/* Media Query */
+
+/* Celulares */
+
+@media (max-width: 480px) {
+
+    body{
+        background-color: #1e172b;
+    }
+
+    #port-soft{
+        padding: 0%;
+        margin: 0%;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+    }
+
+   
+
+    .allsoftware{
+        padding: 0%;
+        margin: 0%;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .allsoftware2{
+        padding: 0%;
+        margin: 0%;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .container-prueba{
+        padding: 0%;
+        margin: 0%;
+    }
+    .soft{
+        margin-top: 1rem;
+    }
+
+    .img-streamer{
+        display: none;
+    }
+
+    .img-webcam{
+        display: none;
+    }
+
+    .streamer{
+       display: none;
+    }
+
+    .streamer2{
+        display: none;
+    }
+
+    .img-port{
+        display: none;
+    }
+    
+    .portemu{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+}
+
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+    
+    body{
+        background-color: #1e172b;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        color: white;
+        
+    }
+    
+    .container{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+    
+    .imgportada {
+        
+        width: 100%;
+        height: auto;
+    }    
+
+    .visnov1{
+        display: grid;
+        grid-template-areas: "div-imgnov div-pnov" ;
+        justify-items: center;
+        align-items: center;
+    }   
+
+    .txt{
+        text-align: justify;
+    }
+
+    .visnov2{
+        display: grid;
+        grid-template-areas: "reverse div-imgnov";
+        justify-items: center;
+        align-items: center;
+    } 
+    
+    .reverse{
+        display: flex;
+        flex-direction: row-reverse;
+        
+    }
+
+    .div-imgnov{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .imgnovedades{
+        width: 400px;
+        height: auto;
+    }
+
+    /* juegos */
+
+    #catalogo {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        justify-items: center;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+
+    
+    .emuladores{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+@media (min-width: 1024px) and (max-width: 1199px) {
+
+    body{
+        background-color: #1e172b;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        
+    }
+    
+    .container{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+    
+    .imgportada {
+        
+        width: 100%;
+        height: auto;
+    }    
+
+    .visnov1{
+        display: grid;
+        grid-template-areas: "div-imgnov div-pnov" ;
+        justify-items: center;
+        align-items: center;
+        padding: 1rem 2rem 1rem 2rem;
+        gap: 1rem;
+    }   
+
+    .txt{
+        text-align: justify;
+    }
+
+    .visnov2{
+        display: grid;
+        grid-template-areas: "reverse div-imgnov";
+        justify-items: center;
+        align-items: center;
+        padding: 1rem 2rem 1rem 2rem;
+        gap: 1rem;
+    } 
+    
+    .reverse{
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 1rem;
+        
+    }
+
+    .div-imgnov{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .imgnovedades{
+        width: 100%;
+        height: auto;
+    }
+
+    .txt{ 
+        padding: 0rem 0rem 0rem 0rem;
+        
+    }
+
+
+
+    .gametitle{
+        font-family:'Monomaniac One', sans-serif;
+        font-size: xx-large;
+        text-align: start;
+        padding:0% ;
+        margin: 1% 2.5%;
+    }
+    
+    #contentgame{
+        display: grid;
+        gap: 2%;
+        margin: 1% 2%;
+        grid-template-areas: 
+            "imagegame infogame " 
+            "container-req extracontent";
+       
+    }
+    
+    .container-img{
+        margin: 1% 2%;
+    }
+    
+    .imagegame{ 
+        
+        width: 400px;
+        height: auto;
+    }
+    
+    .container-req{ 
+        width: 400px;
+    }
+    
+    .infogame{
+        text-align: justify;
+        font-size: large;
+        margin: 1rem 0rem;
+    }
+    
+    .infogame2{ 
+        margin: 1rem 0rem;
+        text-align: justify;
+        font-size: large;
+    
+    }
+    
+    .description{ 
+        font-size: x-large;
+        font-family:'Monomaniac One', sans-serif;
+        font-weight: 100;   
+    }
+    
+    .extracontent{
+        text-align: justify;
+        font-size: large;
+        margin: 0%;
+    }
+    
+    .tecnicfix{ 
+        font-size: x-large;
+        font-family:'Monomaniac One', sans-serif;
+        font-weight: 100;
+        margin: 3% 2%;
+        
+    }
+    
+    .li-req{
+    
+        margin: 1% 2%;
+    
+    }
+    
+    
+    .trailer{
+        display: flex;
+        justify-content: center;
+        margin: 2%;
+        font-family:'Monomaniac One', sans-serif;
+        font-size: xx-large;
+    
+    }
+    
+    iframe{
+        height: 500px;
+        width: 800px; 
+    }
+    
+    .iframe{
+        display: flex;
+        justify-content: center;
+        margin: 5%;
+    }
+
+    #port-soft{
+        display: grid;
+        grid-template-areas:
+        "port-text-soft img-webcam";
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .textsoftware{
+       text-align: center;
+       margin: 1% 10%;
+       font-size: xx-large;
+       padding-bottom: 15%;
+       padding-top: 15%;
+    
+    }
+
+    .webcam{
+        width: auto;
+        height: auto;
+    }
+    
+    .img-webcam{ 
+        padding-bottom: 10%;
+    }
+    
+    .port-text-soft{
+        align-content: center;
+    }
+    
+    
+    .allsoftware{ 
+        background-color:rgba(45, 18, 53, 0.425);
+        padding-top: 10%;
+        padding-bottom: 10%;
+        display: grid;
+        grid-template-areas: 
+        "img-streamer container-img-soft  " 
+        " img-streamer container-soft ";
+        grid-template-columns: 1fr 2fr;
+    }
+    
+    .soft{
+        width: 150px;
+        margin-bottom: 20% ;
+    }
+    
+    .img-streamer{
+       padding-left: 10%; 
+    }
+    
+    .streamer{
+        width: 500px;
+        background-color: black;
+        border-radius: 50%;
+    }
+    
+    .container-prueba{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 10%;
+    }
+    
+    .container-img-soft{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .container-soft{
+        font-size: xx-large;
+        text-align: center;
+    }
+    
+    .allsoftware2{ 
+        padding-top: 10%;
+        padding-bottom: 10%;
+        background-color:#2c284d79;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-areas: 
+        "container-prueba container-ibai"
+        "container-soft container-ibai";
+    }
+    
+    .streamer2{
+        width: 500px;
+    }
+    
+    .portemu{
+        background-color: rgba(0, 0, 0, 0.479);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+    
+    .img-port{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .text-port{ 
+        display: flex;
+        justify-content: center;
+    }
+    
+    .img-port-emu{  
+        width: 50%;
+    }
+    
+    .introemulador{
+        text-align: center;
+        font-size: xx-large;
+        padding-right: 10%;
+    }
+    
+    .tittleemuladores{
+    
+    font-family:'Monomaniac One', sans-serif;
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 10%;
+    
+    
+    }
+    
+    
+    .imgemuladores{
+        width: 100px;
+        height: auto;
+        margin: 2% 2%;
+        
+    }
+    
+    
+    
+    .textemuladores{
+    text-align:center;
+    margin-top: 2%;
+    
+    }
+    
+    .divemulador{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .emuladores{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        
+    }
+    
+    .containeremu{
+        width: 250px;
+    }
+    
+    .aboutus-txt{
+        background-image: url(../Image/portemu.jpg);
+        margin-top: -3%;
+        padding-top: 4%;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-bottom: 4%;
+        font-size: 40px;
+        text-align: center;
+        background-repeat: no-repeat;
+        
+    
+    }
+    
+    
+    .highlight{
+        font-weight: 600;
+    }
+    
+    
+    #aboutus{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "aboutus-txt2 img-streaming";
+    }
+    
+    .aboutus-txt2{
+        background-color: rgba(15, 11, 32, 0.705);
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+        font-size: xx-large;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    
+    .div-streaming{
+        background-color: rgba(0, 0, 0, 0.712);
+        width: 100%;
+        height: auto;
+        padding: 0.5%;
+    }
+    
+    .img-streaming{
+    
+        width: 100%;
+        height: auto;
+    }
+    
+    
+    .contact-final{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "form-txt form-contact";
+        margin: 5%;
+    }
+    
+    .form-txt{
+        text-align: center;
+        font-size: x-large;
+    }
+    
+    .contact-form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    
+    .contact-form h2 {
+      text-align: center;
+    }
+    
+    .form-group {
+      margin-bottom: 20px;
+    }
+    
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-family: 'Montserrat', sans-serif;
+    }
+    
+    .form-group textarea {
+      resize: vertical;
+    }
+    
+    button[type="submit"] {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    button[type="submit"]:hover {
+      background-color: #555;
+    }
+
+
+    #catalogo{
+        background-color: #1b102c;
+        padding-top: 5%;
+        padding-bottom: 10%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 3%;
+        justify-items: center;
+        color: white;
+    }
+
+   
+  }
+
+@media (min-width: 1200px){
+
+    body{
+        background-color: #1e172b;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 300;
+        color: white;
+    }
+    
+    .container{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+    }
+    
+    .imgportada {
+        
+        width: 100%;
+        height: auto;
+    }    
+
+    .visnov1{
+        display: grid;
+        grid-template-areas: "div-imgnov div-pnov" ;
+        justify-items: center;
+        align-items: center;
+        padding: 1rem 2rem 1rem 2rem;
+        gap: 1rem;
+    }   
+
+    .txt{
+        text-align: justify;
+    }
+
+    .visnov2{
+        display: grid;
+        grid-template-areas: "reverse div-imgnov";
+        justify-items: center;
+        align-items: center;
+        padding: 1rem 2rem 1rem 2rem;
+        gap: 1rem;
+    } 
+    
+    .reverse{
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 1rem;
+        
+    }
+
+    .div-imgnov{
+        display: grid;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .imgnovedades{
+        width: 100%;
+        height: auto;
+    }
+
+    .txt{ 
+        padding: 0rem 0rem 0rem 0rem;
+        
+    }
+
+    #catalogo{
+        background-color: #1b102c;
+        padding-top: 5%;
+        padding-bottom: 10%;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 3%;
+        justify-items: center;
+        color: white;
+    }
+
+
+    .gametitle{
+        font-family:'Monomaniac One', sans-serif;
+        font-size: xx-large;
+        text-align: start;
+        padding:0% ;
+        margin: 1% 2.5%;
+    }
+    
+    #contentgame{
+        display: grid;
+        gap: 2%;
+        margin: 1% 2%;
+        grid-template-areas: 
+            "imagegame infogame " 
+            "container-req extracontent";
+       
+    }
+    
+    .container-img{
+        width: auto;
+        height: auto;
+        margin: 1% 2%;
+    }
+    
+    .imagegame{ 
+        
+        width: 400px;
+        height: auto;
+    }
+    
+    .container-req{ 
+        width: 400px;
+    }
+    
+    .infogame{
+        text-align: justify;
+        font-size: large;
+        margin: 1rem 0rem;
+    }
+    
+    .infogame2{ 
+        margin: 1rem 0rem;
+        text-align: justify;
+        font-size: large;
+    
+    }
+    
+    .description{ 
+        font-size: x-large;
+        font-family:'Monomaniac One', sans-serif;
+        font-weight: 100;
+        
+        
+        
+    }
+    
+    .extracontent{
+        text-align: justify;
+        font-size: large;
+        margin: 0%;
+    }
+    
+    .tecnicfix{ 
+        font-size: x-large;
+        font-family:'Monomaniac One', sans-serif;
+        font-weight: 100;
+        margin: 3% 2%;
+        
+    }
+    
+    .li-req{
+    
+        margin: 1% 2%;
+    
+    }
+    
+    
+    .trailer{
+        display: flex;
+        justify-content: center;
+        margin: 2%;
+        font-family:'Monomaniac One', sans-serif;
+        font-size: xx-large;
+    
+    }
+    
+    iframe{
+        height: 500px;
+        width: 800px; 
+    }
+    
+    .iframe{
+        display: flex;
+        justify-content: center;
+        margin: 5%;
+    }
+
+    #port-soft{
+        display: grid;
+        grid-template-areas:
+        "port-text-soft img-webcam";
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .textsoftware{
+       text-align: center;
+       margin: 1% 10%;
+       font-size: xx-large;
+       padding-bottom: 15%;
+       padding-top: 15%;
+    
+    }
+
+    .webcam{
+        width: auto;
+        height: auto;
+    }
+    
+    .img-webcam{ 
+        padding-bottom: 10%;
+    }
+    
+    .port-text-soft{
+        align-content: center;
+    }
+    
+    .imgsoftware {
+    
+        width: 100px;
+    
+    }
+    
+    .allsoftware{ 
+        background-color:rgba(45, 18, 53, 0.425);
+        padding-top: 10%;
+        padding-bottom: 10%;
+        display: grid;
+        grid-template-areas: 
+        "img-streamer container-img-soft  " 
+        " img-streamer container-soft ";
+        grid-template-columns: 1fr 2fr;
+    }
+    
+    .soft{
+        width: 150px;
+        margin-bottom: 20% ;
+    }
+    
+    .img-streamer{
+       padding-left: 10%; 
+    }
+    
+    .streamer{
+        width: 500px;
+        background-color: black;
+        border-radius: 50%;
+    }
+    
+    .container-prueba{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-right: 10%;
+    }
+    
+    .container-img-soft{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .container-soft{
+        font-size: xx-large;
+        text-align: center;
+    }
+    
+    .allsoftware2{ 
+        padding-top: 10%;
+        padding-bottom: 10%;
+        background-color:#2c284d79;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-areas: 
+        "container-prueba container-ibai"
+        "container-soft container-ibai";
+    }
+    
+    .streamer2{
+        width: 500px;
+    }
+    
+    .portemu{
+        background-color: rgba(0, 0, 0, 0.479);
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+    
+    .img-port{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .text-port{ 
+        display: flex;
+        justify-content: center;
+    }
+    
+    .img-port-emu{  
+        width: 50%;
+    }
+    
+    .introemulador{
+        text-align: center;
+        font-size: xx-large;
+        padding-right: 10%;
+    }
+    
+    .tittleemuladores{
+    
+    font-family:'Monomaniac One', sans-serif;
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-top: 10%;
+    
+    
+    }
+    
+    
+    .imgemuladores{
+        width: 100px;
+        height: auto;
+        margin: 2% 2%;
+        
+    }
+    
+    
+    
+    .textemuladores{
+    text-align:center;
+    margin-top: 2%;
+    
+    }
+    
+    .divemulador{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .emuladores{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-items: center;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        
+    }
+    
+    .containeremu{
+        width: 250px;
+    }
+
+    .aboutus-txt{
+        background-image: url(../Image/portemu.jpg);
+        margin-top: -3%;
+        padding-top: 4%;
+        padding-left: 20%;
+        padding-right: 20%;
+        padding-bottom: 4%;
+        font-size: 40px;
+        text-align: center;
+        background-repeat: no-repeat;
+        
+    
+    }
+    
+    
+    .highlight{
+        font-weight: 600;
+    }
+    
+    
+    #aboutus{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "aboutus-txt2 img-streaming";
+    }
+    
+    .aboutus-txt2{
+        background-color: rgba(15, 11, 32, 0.705);
+        display: grid;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+        font-size: xx-large;
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+    
+    .div-streaming{
+        background-color: rgba(0, 0, 0, 0.712);
+        width: 100%;
+        height: auto;
+        padding: 0.5%;
+    }
+    
+    .img-streaming{
+    
+        width: 100%;
+        height: auto;
+    }
+    
+    
+    .contact-final{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "form-txt form-contact";
+        margin: 5%;
+    }
+    
+    .form-txt{
+        text-align: center;
+        font-size: x-large;
+    }
+    
+    .contact-form {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    
+    .contact-form h2 {
+      text-align: center;
+    }
+    
+    .form-group {
+      margin-bottom: 20px;
+    }
+    
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+    
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      font-family: 'Montserrat', sans-serif;
+    }
+    
+    .form-group textarea {
+      resize: vertical;
+    }
+    
+    button[type="submit"] {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: #333;
+      color: #fff;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    
+    button[type="submit"]:hover {
+      background-color: #555;
+    }
+
+
+}
