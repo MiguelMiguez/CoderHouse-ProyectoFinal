@@ -291,11 +291,35 @@ iframe {
   display: grid;
   grid-template-areas: "port-text-soft img-webcam";
   grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-items: center;
 }
 #port-soft .port-text-soft .textsoftware {
   text-align: center;
   font-size: large;
   margin: 5%;
+}
+#port-soft .port-text-soft .button-software {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+#port-soft .port-text-soft .button-software .button-software {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 1.5rem;
+}
+#port-soft .port-text-soft .button-software .button-portada:hover {
+  background-color: #000;
+  color: #fff;
 }
 #port-soft .img-webcam .webcam {
   padding-top: 3rem;

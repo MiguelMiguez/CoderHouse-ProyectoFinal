@@ -351,8 +351,13 @@ iframe{
     grid-template-areas:
     "port-text-soft img-webcam";
     grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+
     
     .port-text-soft{
+
+        
 
         .textsoftware{
             text-align: center;
@@ -360,8 +365,34 @@ iframe{
             margin: 5%;
         }
 
-    }
+        .button-software{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-content: center;
 
+            .button-software {
+                background-color: transparent;
+                border: 1px solid white;
+                color: white;
+                padding: 10px 20px;
+                text-transform: uppercase;
+                font-size: 14px;
+                letter-spacing: 2px;
+                cursor: pointer;
+                transition: background-color 0.3s ease;
+                margin: 1.5rem;
+            }
+            .button-portada:hover {
+                background-color: #000;
+                color: #fff;
+            }
+
+        }
+
+
+    }
+    
     .img-webcam{
 
         .webcam{
