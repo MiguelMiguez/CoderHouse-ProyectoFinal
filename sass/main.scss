@@ -52,6 +52,7 @@ table {
 $colorbody: #1e172b;
 $titulos: 'Monomaniac One', sans-serif,;
 $fontpage: 'Montserrat', sans-serif;
+$colorcatalogo: solid #593194 2pt;
 
 /* ---- */
 
@@ -252,7 +253,7 @@ footer{
     .games-p1{
         .games{
 
-            border: solid rgba(59, 8, 70, 0.527);
+            border: $colorcatalogo;
             width: 250px;
             height: 400px;
             transition: 1s;
@@ -291,7 +292,7 @@ footer{
 
         .imagegame{
             width: 100%;
-            border: solid rgb(122, 122, 122);
+            border: $colorcatalogo;
         }
 
     }
@@ -972,7 +973,7 @@ iframe{
         font-size: xx-large;
         text-align: start;
         padding:0% ;
-        margin: 1% 2.5%;
+        margin-left: 1.5rem;
     }
 
     #contentgame{
@@ -1496,7 +1497,7 @@ iframe{
         font-size: xx-large;
         text-align: start;
         padding:0% ;
-        margin: 1% 2%;
+        margin-left: 2.7rem;
     }
 
     #contentgame{

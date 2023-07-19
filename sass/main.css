@@ -215,7 +215,7 @@ footer .contact-info p {
   color: white;
 }
 #catalogo .games-p1 .games {
-  border: solid rgba(59, 8, 70, 0.527);
+  border: solid #593194 2pt;
   width: 250px;
   height: 400px;
   transition: 1s;
@@ -246,7 +246,7 @@ footer .contact-info p {
 }
 #contentgame .container-img .imagegame {
   width: 100%;
-  border: solid rgb(122, 122, 122);
+  border: solid #593194 2pt;
 }
 #contentgame .infogame {
   text-align: center;
@@ -755,7 +755,7 @@ iframe {
     font-size: xx-large;
     text-align: start;
     padding: 0%;
-    margin: 1% 2.5%;
+    margin-left: 1.5rem;
   }
   #contentgame {
     display: grid;
@@ -1140,7 +1140,7 @@ iframe {
     font-size: xx-large;
     text-align: start;
     padding: 0%;
-    margin: 1% 2%;
+    margin-left: 2.7rem;
   }
   #contentgame {
     display: grid;
