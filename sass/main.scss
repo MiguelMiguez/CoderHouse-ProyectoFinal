@@ -200,7 +200,7 @@ footer{
 
     .imgnovedades{
         width: 100%;
-        border: solid rgba(255, 255, 255, 0.712) 2pt;
+        border: solid #593194 2pt;
         transition: 1s;    
     }
     .imgnovedades:hover{
@@ -374,6 +374,7 @@ iframe{
             font-size: 16px;
             cursor: pointer;
             transition: background-color 0.3s ease;
+            text-decoration: none;
         }
 
         .button-portada:hover {
@@ -1102,6 +1103,7 @@ iframe{
                 font-size: 16px;
                 cursor: pointer;
                 transition: background-color 0.3s ease;
+                text-decoration: none;
             }
     
             .button-portada:hover {
@@ -1631,6 +1633,7 @@ iframe{
                 font-size: 16px;
                 cursor: pointer;
                 transition: background-color 0.3s ease;
+                text-decoration: none;
               }
               
               .button-portada:hover {

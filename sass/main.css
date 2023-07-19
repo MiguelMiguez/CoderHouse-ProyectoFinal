@@ -172,7 +172,7 @@ footer .contact-info p {
 }
 .div-imgnov .imgnovedades {
   width: 100%;
-  border: solid rgba(255, 255, 255, 0.712) 2pt;
+  border: solid #593194 2pt;
   transition: 1s;
 }
 .div-imgnov .imgnovedades:hover {
@@ -312,6 +312,7 @@ iframe {
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  text-decoration: none;
 }
 #port-soft .port-text-soft .button-portada:hover {
   background-color: #472776;
@@ -853,6 +854,7 @@ iframe {
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    text-decoration: none;
   }
   #port-soft .port-text-soft .button-portada:hover {
     background-color: #472776;
@@ -1236,6 +1238,7 @@ iframe {
     font-size: 16px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    text-decoration: none;
   }
   #port-soft .port-text-soft .button-portada:hover {
     background-color: #472776;
