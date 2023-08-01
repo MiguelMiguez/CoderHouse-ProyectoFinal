@@ -586,6 +586,30 @@ iframe{
     
 }
 
+/* Mantenimiento */
+
+.mantenimientoimg{
+    padding: 2rem 1rem 2rem 1rem;
+    margin: 0%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+
+    .img-maintenance{
+        width: 300px ;
+    }
+}
+
+.mantenimientotxt{
+    padding: 2rem 1rem 2rem 1rem;
+    text-align: center;
+    font-size: 2rem ;
+    font-family: $titulos;
+
+}
+
 /* About US */
 
 .aboutus-1{
@@ -1286,6 +1310,29 @@ iframe{
         }
     }
 
+
+
+    .mantenimientoimg{
+        padding: 2rem 1rem 2rem 1rem;
+        margin: 0%;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+
+    .img-maintenance{
+        width: 600px ;
+    }
+}
+
+    .mantenimientotxt{
+    padding: 2rem 1rem 2rem 1rem;
+    text-align: center;
+    font-size: 5rem ;
+
+}
+
     .aboutus-1{
         .aboutus-txt{
             background-image: linear-gradient(95deg, rgba(34, 12, 60, 0.726) 0%, rgba(91, 12, 40, 0.521) 100%), url(../image/portemu.jpg);
@@ -1806,6 +1853,28 @@ iframe{
 
         }
     }
+
+    .mantenimientoimg{
+        padding: 2rem 1rem 2rem 1rem;
+        margin: 0%;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-items: center;
+        align-items: center;
+        width: 100%;
+
+    .img-maintenance{
+        width: 800px ;
+    }
+}
+
+    .mantenimientotxt{
+    padding: 2rem 1rem 2rem 1rem;
+    text-align: center;
+    font-size: 5rem ;
+    font-family: $titulos;
+
+}
 
     .aboutus-1{
         .aboutus-txt{

@@ -473,6 +473,27 @@ iframe {
   margin-top: 2%;
 }
 
+/* Mantenimiento */
+.mantenimientoimg {
+  padding: 2rem 1rem 2rem 1rem;
+  margin: 0%;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+}
+.mantenimientoimg .img-maintenance {
+  width: 300px;
+}
+
+.mantenimientotxt {
+  padding: 2rem 1rem 2rem 1rem;
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Monomaniac One", sans-serif;
+}
+
 /* About US */
 .aboutus-1 .aboutus-txt {
   background-image: linear-gradient(95deg, rgba(34, 12, 60, 0.493) 0%, rgba(91, 12, 40, 0.295) 100%), url(../image/portemu.jpg);
@@ -982,6 +1003,23 @@ iframe {
     text-align: center;
     margin-top: 2%;
   }
+  .mantenimientoimg {
+    padding: 2rem 1rem 2rem 1rem;
+    margin: 0%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+  }
+  .mantenimientoimg .img-maintenance {
+    width: 600px;
+  }
+  .mantenimientotxt {
+    padding: 2rem 1rem 2rem 1rem;
+    text-align: center;
+    font-size: 5rem;
+  }
   .aboutus-1 .aboutus-txt {
     background-image: linear-gradient(95deg, rgba(34, 12, 60, 0.726) 0%, rgba(91, 12, 40, 0.521) 100%), url(../image/portemu.jpg);
     margin-top: -3%;
@@ -1360,6 +1398,24 @@ iframe {
   .emuladores .containeremu .textemuladores {
     text-align: center;
     margin-top: 2%;
+  }
+  .mantenimientoimg {
+    padding: 2rem 1rem 2rem 1rem;
+    margin: 0%;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+    width: 100%;
+  }
+  .mantenimientoimg .img-maintenance {
+    width: 800px;
+  }
+  .mantenimientotxt {
+    padding: 2rem 1rem 2rem 1rem;
+    text-align: center;
+    font-size: 5rem;
+    font-family: "Monomaniac One", sans-serif;
   }
   .aboutus-1 .aboutus-txt {
     background-image: linear-gradient(95deg, rgba(34, 12, 60, 0.726) 0%, rgba(91, 12, 40, 0.521) 100%), url(../image/portemu.jpg);
